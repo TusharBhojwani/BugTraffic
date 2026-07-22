@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @GetMapping("/")
-    public String home() {
-        return "BugTrack Backend is Running!";
-    }
+    @GetMapping("/api/test")
+    public String test() {
+        return "JWT Authentication Successful!";
+}
 }
